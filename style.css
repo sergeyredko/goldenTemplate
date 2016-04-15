@@ -158,7 +158,8 @@ p.desc {
 	font-size: 16px;
 	color: #777;
 }
-.services-wrap {
+.services-wrap,
+.portfolio-wrap {
 	padding-top: 70px;
 }
 .services-item {
@@ -179,4 +180,29 @@ p.desc {
 }
 .security {
 	background: url(img/icon_locked.png) no-repeat center top;
+}
+#portfolio {
+	text-align: center;
+	background: #f7f7f7;
+}
+.portfolio-item {
+	float: left;
+	width: 31%;
+	margin-right: 3.5%;
+	margin-bottom: 50px;
+	background: #FFF;
+}
+.portfolio-item:nth-child(3n) {
+	margin-right: 0;
+}
+.portfolio-item:nth-last-child(1),
+.portfolio-item:nth-last-child(2),
+.portfolio-item:nth-last-child(3) {
+	margin-bottom: 0;
+}
+.p-item-footer {
+	padding: 25px 20px;
+}
+.p-item-footer h5.title {
+	margin-bottom: 4px;
 }
