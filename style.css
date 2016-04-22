@@ -254,3 +254,6 @@ p.desc {
 	font: bold 18px/27px Arial, sans-serif;
 	text-shadow: 0 1px rgba(0,0,0,.3);
 }
+.item-clear {
+	width: 33%;
+}
