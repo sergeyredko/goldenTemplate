@@ -254,6 +254,68 @@ p.desc {
 	font: bold 18px/27px Arial, sans-serif;
 	text-shadow: 0 1px rgba(0,0,0,.3);
 }
-.item-clear {
-	width: 33%;
+.team-item {
+	float: left;
+	width: 33.33%;
+	padding: 0 10px;
+}
+.team-item img {
+	margin-top: 80px;
+	margin-bottom: 15px;
+	border: 7px solid #f1f1f1;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.cat {
+	font: 14px/14px Arial, sans-serif;
+	color: #777;
+}
+.social {
+	margin-top: 15px;
+}
+.social a {
+	margin: 0 3px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 3px solid #222;
+	background: url('img/social.png') no-repeat;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.social a.icon-tw {
+	background-position: 0 0;
+}
+.social a.icon-fc {
+	background-position: -40px -1px;
+}
+.social a.icon-pb {
+	background-position: -79px -2px;
+}
+.social a.icon-gp {
+	background-position: -120px 0;
+}
+.social a.icon-tw:hover {
+	border-color: #00aced;
+	background-color: #00aced;
+	background-position: 0 -40px;
+}
+.social a.icon-fc:hover {
+	border-color: #3b5998;
+	background-color: #3b5998;
+	background-position: -40px -41px;
+}
+.social a.icon-pb:hover {
+	border-color: #cb2028;
+	background-color: #cb2028;
+	background-position: -79px -42px;
+}
+.social a.icon-gp:hover {
+	border-color: #d95232;
+	background-color: #d95232;
+	background-position: -120px -40px;
 }
